@@ -1,0 +1,12 @@
+.footer{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 7%;
+}
+
+.icons img{
+    padding-left: 1.5rem;
+    height: 2.5rem;
+}
