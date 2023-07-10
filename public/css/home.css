@@ -1,0 +1,15 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: white;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 12%;
+}
+
+#title{
+    color: white !important;
+}

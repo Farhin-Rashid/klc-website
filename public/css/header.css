@@ -2,8 +2,8 @@
     --primary-color: #C87486;
     --secondary-color: #734779;
     --black100: #1E1B1B;
-    --black75: #1E1B1BBF;
-    --black50:#1E1B1B80;
+    --black75: #565454;
+    --black50:#8E8C8D;
 }
 
 .container{
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: white;
     transition: all 0.5s ease;
 }
 
