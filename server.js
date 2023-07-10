@@ -38,6 +38,11 @@ app.get('/resources', function(req,res){
     res.render("resources")
 });
 
+app.get('/admin', function(req,res){
+    res.render("admin");
+    console.log("Works");
+});
+
 app.listen(port, function(){
     console.log("Server started on port " + port);
 });

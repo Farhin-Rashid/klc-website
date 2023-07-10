@@ -1,3 +1,11 @@
+html{
+    overflow-x: hidden;
+}
+
+.blue{
+    background-color: blueviolet;
+}
+
 .hero-section{
     display: flex;
     align-items: center;
@@ -5,11 +13,46 @@
     background-color: var(--secondary-color);
     color: white;
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 12%;
+    padding: 16% 12%;
 }
 
 #title{
     color: white !important;
+}
+
+.vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12%;
+}
+
+.vid video{
+    max-width: 96%;
+}
+
+.officers{
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.officers h1 {
+    color: rgba(115, 71, 121, 1);
+    font-weight: bolder;
+    padding-bottom: 8rem;
+}
+
+.officers h2{
+    color: var(--black-100, #1E1B1B);
+}
+
+.officers .sub-heading{
+    color: rgba(30, 27, 27, 0.5);
+}
+
+#advisor-name{
+    width: max-content;
 }
