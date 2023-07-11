@@ -1,0 +1,28 @@
+.title{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1{
+    color: rgba(115, 71, 121, 1);
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+
+.title button{
+    border-color: rgba(200, 116, 134, 1);
+    border-radius: 10px;
+    border-width: 3px;
+    background-color: white;
+    color: rgba(200, 116, 134, 1);
+    padding: 2rem;
+}
+
+.title button:hover{
+    cursor: pointer;
+    background-color: rgba(200, 116, 134, 1);
+    color: white;
+}
