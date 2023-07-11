@@ -7,22 +7,25 @@
 }
 
 .title h1{
-    color: rgba(115, 71, 121, 1);
+    color: var(--secondary-color);
     font-weight: bolder;
     margin-bottom: 4rem;
 }
 
 .title button{
-    border-color: rgba(200, 116, 134, 1);
+    border-color: var(--primary-color);
     border-radius: 10px;
     border-width: 3px;
     background-color: white;
-    color: rgba(200, 116, 134, 1);
+    color: var(--primary-color);
     padding: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all 0.50s ease;
 }
 
 .title button:hover{
     cursor: pointer;
-    background-color: rgba(200, 116, 134, 1);
+    background-color: var(--primary-color);
     color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
