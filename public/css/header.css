@@ -34,7 +34,7 @@
 }
 
 .active{
-    background-color: #1E1B1B1A;
+    background-color: #1E1B1B1A !important;
     border-radius: 5px;
 }
 
