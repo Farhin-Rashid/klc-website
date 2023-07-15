@@ -1,0 +1,11 @@
+.faq{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 88vh;
+    padding: 16% 12%;
+}
+
+.faq h1{
+    color: white;
+    font-weight: bold;
+}
