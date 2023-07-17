@@ -2,10 +2,6 @@ html{
     overflow-x: hidden;
 }
 
-.blue{
-    background-color: blueviolet;
-}
-
 .hero-section{
     display: flex;
     align-items: center;
@@ -56,3 +52,5 @@ html{
 #advisor-name{
     width: max-content;
 }
+
+/* ADD READ MORE BUTTON */
