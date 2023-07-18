@@ -54,3 +54,25 @@ html{
 }
 
 /* ADD READ MORE BUTTON */
+.box{
+    margin-bottom: 2em;
+}
+.box p.lead{
+    height: 120px;
+    overflow: hidden;
+}
+
+.box a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.box a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #C8748675;
+}
+
+.box.showContent p{
+    height: auto;
+}
