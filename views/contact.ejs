@@ -1,3 +1,17 @@
 <%-include("partials/header")%>
-CONTACT
+<head>
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<div class="form-container mt-5">
+    <form class="contact-form mt-5">
+        <h1 class="display-4">Contact Us</h1>
+        <p class="lead">Leave us a message or send us a question!</p>
+        <input class="mb-3 mt-4 input" type="text" id="first-name" placeholder="First Name">
+        <input class="mb-3 input" type="text" id="last-name" placeholder="Last Name">
+        <input class="mb-3 input" type="email" id="email" placeholder="Email (UTD if you have one)">
+        <textarea class="mb-3 input" id="message" placeholder="Your message" rows="10"></textarea>
+        <label><input class="mb-5 checkbox" type="checkbox"><span class="lead">Sign me up for the mailing list!</span></label>
+        <input type="submit" class="submit mb-3 mt-2 h3">
+    </form>
+</div>
 <%-include("partials/footer")%>

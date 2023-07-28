@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
 
@@ -43,6 +43,6 @@ app.get('/admin', function(req,res){
     console.log("Works");
 });
 
-app.listen(port, function(){
-    console.log("Server started on port " + port);
+app.listen(PORT, function(){
+    console.log("Server started on PORT " + PORT);
 });
