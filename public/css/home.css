@@ -36,7 +36,7 @@ html{
 }
 
 .officers h1 {
-    color: rgba(115, 71, 121, 1);
+    color: var(--secondary-color);
     font-weight: bolder;
     padding-bottom: 8rem;
 }
@@ -70,7 +70,7 @@ html{
 .box a:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: #C8748675;
+    color: #68b9b2;
 }
 
 .box.showContent p{

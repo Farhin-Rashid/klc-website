@@ -33,7 +33,7 @@
 .submit{
     color: white;
     font-weight: bold;
-    background-color: var(--primary-color);
+    background-color: #008C85;
     width: 100%;
     margin-bottom: 1em;
     border: none;
@@ -46,7 +46,7 @@
 .submit:hover{
     cursor: pointer;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-    background-color: #a45264;
+    background-color: var(--primary-color);
 }
 
 .checkbox{
