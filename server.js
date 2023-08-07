@@ -9,9 +9,11 @@ app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+app.use(express.json());
 
 app.get('/', function(req, res){
     res.render("home");
+    console.log(req.body);
 });
 
 app.get("/about", function(req,res){
